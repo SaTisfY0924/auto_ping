@@ -18,4 +18,4 @@ for row in sheet.iter_rows(min_row=2, values_only=True):  # 从第二行开始�
     if result.returncode == 0:
         print(f"{seq} {name} {ip} ping成功")
     else:
-        print(f"{seq} {name} {ip} ping失败")˝
+        print(f"{seq} {name} {ip} ping失败")
